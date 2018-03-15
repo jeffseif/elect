@@ -1,0 +1,32 @@
+<html>
+<head>
+  <link href='./static/css/elect.css' rel='stylesheet' />
+  <link rel='icon' href='./static/img/favicon.ico' type='image/x-icon'>
+  <script src='./static/js/elect.js'></script>
+</head>
+<body>
+
+  <div id='header'>Election outcome predictor</div>
+
+  <div id='calculator'>
+    <div class='input'>
+        A
+        <input type=text' id='winning' onkeyup='updatePrediction();' value=1010>
+    </div>
+    <div class='input'>
+        B
+        <input type=text' id='losing' onkeyup='updatePrediction();' value=990>
+    </div>
+    <div class='input'>
+        Reporting
+        <input type=text' id='reporting' onkeyup='updatePrediction();' value=0.5>
+    </div>
+    <div id='prediction'></div>
+  </div>
+
+  <div id='footer'>
+    <a href='http://git.jeffseif.info/elect'>git</a>
+  </div>
+
+</body>
+</html>

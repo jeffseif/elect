@@ -1,0 +1,48 @@
+body {
+  font-family: monospace;
+  font-size: 300%;
+  padding: 0 0.5em;
+}
+
+div {
+  border-radius: 5px;
+  margin: 1em 0;
+  text-align: center;
+}
+
+div#header, div#footer {
+  background-color: lightslategray;
+  margin: 0;
+}
+
+div#calculator {
+  display: table;
+  height: 3em;
+  table-layout: fixed;
+  width: 100%;
+}
+
+div#calculator div {
+  background-color: lightgray;
+  border: gray solid 1px;
+  margin: 0;
+  padding: 0.5em;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+div#calculator div.input input {
+  border: none;
+  float: right;
+  font-family: monospace;
+  font-size: 100%;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  vertical-align: middle;
+}
+
+div#calculator div#prediction {
+  text-align: center;
+}
